@@ -31,7 +31,8 @@ public class Main {
 		Context.setTeacherName(TestProperties.get("teacher-name")); //teacher
 		Context.setTeacherPass(TestProperties.get("teacher-pass")); //teacher
 		Context.setTeacherUser(TestProperties.get("teacher-email")); //teacher@liferay.com
-				
+		
+		 
 		Class[] classes = null;
 		try {
 			classes = ClassFinder.getClasses("com.tls.liferaylms.test.unit");
